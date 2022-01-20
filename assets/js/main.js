@@ -63,5 +63,10 @@ $('.slider_jeux').slick({
     ]
   });
   /* Fin Carousel produits */
-
+/*Sound*/
+function treasure(){
+  var treasure = new Audio();
+  treasure.src = "assets/sound/treasure.mp3";
+  treasure.play()
+}
       
