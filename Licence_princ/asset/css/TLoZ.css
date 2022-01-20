@@ -1,11 +1,11 @@
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 20px;
     margin-right: 20px;
-    background: linear-gradient(90deg, #1f5ea7, #211f94) center center no-repeat;
+    background: linear-gradient(90deg, #1f5ea7, #211f94) center center;
     padding: 50px;
-    font-family: sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
+    font-size: 17px;
 }
 
 img {
@@ -16,9 +16,9 @@ img {
 
 figcaption {
     text-align: center;
-    text-decoration: overline;
-    color: white;
-    margin-top: 10px;
+    text-decoration: underline;
+    color: #fb911f;
+    margin-top: 15px;
 }
 
 .right {
@@ -30,11 +30,16 @@ iframe{
     margin-left: 20px;
     border: 1px white solid;
     box-shadow: 10px 10px 10px black;
+    margin-top: 89px;
 }
 h1{
     color: beige;
-    text-decoration: underline;
 }
+
+span{
+    color: #fb911f;
+}
+
 /* nav */
 :root{
     --hauteur-menu: 60px;
@@ -198,3 +203,4 @@ li a{
 }
 
 /* fin nav */
+
