@@ -1,11 +1,7 @@
-body {
-    margin-left: 20px;
-    margin-right: 20px;
-    background: linear-gradient(90deg, #1f5ea7, #211f94) center center;
-    padding: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
-    font-size: 17px;
+body{
+    background: linear-gradient(85deg, #0b55aa, #111111) center center no-repeat;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 img {
