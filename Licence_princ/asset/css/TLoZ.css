@@ -1,18 +1,18 @@
 body {
-    margin-left: 20px;
-    margin-right: 20px;
-    background: linear-gradient(90deg, #1f5ea7, #211f94) center center;
-    padding: 50px;
+    margin: 8px;
+    padding: 20px;
+    background: linear-gradient(85deg, #0b55aa, #111111) center center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: white;
     font-size: 17px;
 }
 
-img {
+/*img {
     margin-left: 1000px;
     margin: 20px 20px 0px 50px;
     border: 5px black solid;
 }
+*/
 
 figcaption {
     text-align: center;
@@ -30,7 +30,7 @@ iframe{
     margin-left: 20px;
     border: 1px white solid;
     box-shadow: 10px 10px 10px black;
-    margin-top: 89px;
+    margin-top: 65px;
 }
 h1{
     color: beige;
@@ -62,12 +62,12 @@ nav{
 }
 
 .nav-home{
-    font-size: 2em;
+    font-size: 32px;
     max-width: 200px;
 }
 
 .menu-deroulant{
-    font-size: 2em;
+    font-size: 32px;
     max-width: 410px;
 }
 
@@ -203,4 +203,3 @@ li a{
 }
 
 /* fin nav */
-
