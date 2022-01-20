@@ -205,10 +205,6 @@ p{
     
 }
 
-
-section{
-    padding: 100px;
-}
 .row{
     position: relative;
     width: 100%;
@@ -256,7 +252,7 @@ section{
 }
 
 .menu{
-    margin-top: -100px;
+    margin-top: 50px;
 }
 
 .menu .contenu{
