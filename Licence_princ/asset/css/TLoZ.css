@@ -203,3 +203,13 @@ li a{
 }
 
 /* fin nav */
+/*Footer*/
+footer{
+    font-size: 1em;
+    color: #ffffff;
+    opacity: 0.3;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+    border-top: 2px rgba(0, 0, 0, 0.5) solid;
+}
