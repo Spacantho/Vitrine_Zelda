@@ -128,6 +128,47 @@ li a{
 .menu-deroulant:hover > .sous-menu{
     animation: apparitionSousMenu 1s forwards;
 }
+/*Burger*/
+
+.burger{
+    display: none;
+}
+
+.burger-image{
+    min-width: 100px;
+    margin-left: 70px;
+}
+
+.burger > a:after{
+    font-size: 30px;
+    margin-left: 7px;
+    display: inline-block;
+}
+
+.burger:hover > .sous-menu{
+    animation: apparitionSousMenu 1s forwards;
+}
+
+.burger-name{
+    margin-left: 20px;
+}
+
+.nav-burger{
+    font-size: 0.8em;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.deroulant-burger{
+    max-height: 200px;
+    padding: 0 30px;
+    overflow: auto;
+}
+
+.deroulant-burger > li:hover > a{
+    color: blue;
+}
+/*Fin Burger*/
   
 @keyframes apparitionSousMenu{
     0% {
@@ -167,7 +208,12 @@ li a{
         margin-left: 40px;
     }
     .nav-deroulant{
-        visibility: hidden;
+        display: none;
+        width: 0px;
+    }
+    .burger{
+        display: block;
+        margin: 0 50px;
     }
 }
 
@@ -300,6 +346,16 @@ li a{
 
 .div18{
     background: url(../Galeries/Jeux/BoTW.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.div19{
+    background: url(../Galeries/Jeux/HyruleWarriors.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.div20{
+    background: url(../Galeries/Jeux/HyruleWarriors2.jpg) center no-repeat;
     background-size: cover;
 }
 
